@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    android:layout_margin="16dp"
+    tools:context=".ProfilActivity">
+
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:text="Remplissez les champs et cliquez sur envoyer pour changer votre profil"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/profil"
+        android:layout_width="200dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circular_background"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="58dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:hint="Nom"
+        android:padding="2dp"
+        android:textColor="#050506" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:hint="Prenom"
+        android:padding="2dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:hint="UserNAME"
+        android:padding="2dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:padding="2dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/groupe"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/groupe"
+        android:drawablePadding="10dp"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/pickImageButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#71BEB7"
+        android:text="Choisir une Image"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/pass"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#D5B1A9"
+        android:text="Changer Password"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/changeProfil"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#1A3851"
+        android:text="Envoyer"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
+

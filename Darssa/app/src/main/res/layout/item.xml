@@ -1,0 +1,122 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#9FC8C9"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/parent"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/pwid"
+            android:layout_width="123dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="4dp"
+            android:text=" ID: 12345"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/studentid"
+            android:layout_width="123dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="4dp"
+            android:text=" ID: 12345"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="197dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="180dp"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/objectifLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Objectif :"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/objectif"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/objectifLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/docsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/objectif"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Docs      :"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/docs"
+            android:layout_width="143dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/objectif"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/docsLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/toothLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/docs"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Dent      :"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tooth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/docs"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/toothLabel"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="86dp"
+            android:layout_height="121dp"
+            android:layout_below="@id/toothLabel"
+            android:layout_marginTop="-141dp"
+            app:srcCompat="@drawable/dent" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

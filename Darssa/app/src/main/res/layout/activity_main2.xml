@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSelectImage"
+                android:layout_width="72dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="60dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/gallery" />
+
+
+            <ImageButton
+                android:id="@+id/camera"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/transparent"
+                android:src="@drawable/camera" />
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="50dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/reset" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/commencez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#D6A08E"
+            android:text="Commencez"
+            tools:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="356dp"
+            android:layout_height="460dp"
+            android:layout_below="@id/topLayout"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="88dp" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="356dp"
+            android:layout_height="460dp"
+            android:layout_below="@id/topLayout"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="20dp"
+            android:visibility="gone"
+            android:layout_marginBottom="88dp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="356dp"
+            android:layout_height="460dp"
+            android:layout_below="@id/topLayout"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:visibility="gone"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="88dp" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="356dp"
+            android:layout_height="460dp"
+            android:layout_below="@id/topLayout"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:visibility="gone"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="88dp" />
+
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="410dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:text="Les angles inetrnes:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:textSize="18dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="200dp"
+            android:layout_height="47dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="10dp"
+            android:text="Lingual a 15 deg/l'horizontal :"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/internes1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/a1"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="10dp"
+            android:text="Vestibulaire a 45 deg/l'horizontal :"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/internes2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/a2"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="410dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:text="Les angles externes:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            tools:textSize="18dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="10dp"
+            android:text="Lingual a 45 deg/la verticale :"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/externes1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/a3"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="10dp"
+            android:text="vestibulaire 15 deg/la verticale :"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/externes2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/a4"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="410dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:text="Les angles de depouille:"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            tools:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/a5"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="10dp"
+            android:text="Dépouille des parois vestibulo-linguales :"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            tools:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/depouille1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/a5"
+                android:textSize="20sp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/a6"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="67dp"
+            android:paddingLeft="10dp"
+            android:text="Dépouille des parois mésio-distale :"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            tools:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/depouille2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/a6"
+                android:textSize="20sp" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/soumettre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#71BEB7"
+            android:text="Soumettre le Tp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

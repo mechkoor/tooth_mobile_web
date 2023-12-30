@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Darssa</string>
+    <string name="title_activity_token">TokenActivity</string>
+    <string name="url">http://192.168.1.112:5050/etudiant/</string>
+
+
+</resources>
